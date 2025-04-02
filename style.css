@@ -5,7 +5,7 @@
     background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(71,3,3,1) 100%);
     --verde: #ff4848;
     --branco: #FFFFFF;
-    --botao-ativo: #000000;
+    --botao-ativo: #8f1212;
     --botao-inativo: rgb(58, 4, 9);
     --texto-fundo: rgba(245, 245, 248, 0.3);
 }
@@ -75,7 +75,32 @@ body {
     }
 }
 
-.ativo{
+.botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
+}
+
+.abas-textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+.aba-conteudo.ativo{
+    display: block;
+}
+
+.aba-conteudo{
+    display: none;
+}
+
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+
+.aba-conteudo-titulo-secundario{
+    text-align: center;
+    color: var(--branco);
+    text-transform: uppercase;
 }

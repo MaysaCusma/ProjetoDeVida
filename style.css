@@ -100,9 +100,9 @@ body {
 }
 
 .aba-conteudo-titulo-secundario{
-    text-align: center;
     color: var(--branco);
     text-transform: uppercase;
+    text-align: center;
 }
 
 .contador{
